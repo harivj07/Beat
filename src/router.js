@@ -26,36 +26,36 @@ export default new Router({
       path: "/landing",
       name: "landing",
       components: {
-        header: AppHeader,
+        // header: AppHeader,
         default: Landing,
-        footer: AppFooter
+        // footer: AppFooter
       }
     },
     {
       path: "/login",
       name: "login",
       components: {
-        header: AppHeader,
+        // header: AppHeader,
         default: Login,
-        footer: AppFooter
+        // footer: AppFooter
       }
     },
     {
       path: "/register",
       name: "register",
       components: {
-        header: AppHeader,
+        // header: AppHeader,
         default: Register,
-        footer: AppFooter
+        // footer: AppFooter
       }
     },
     {
       path: "/profile",
       name: "profile",
       components: {
-        header: AppHeader,
-        default: Profile,
-        footer: AppFooter
+        // header: AppHeader,
+         default: Profile,
+        // footer: AppFooter
       }
     }
   ],
